@@ -1,51 +1,5 @@
 [
     {
-        "id": "srecord",
-        "name": "The SRecord package is a collection of powerful tools for manipulating EPROM load files. (srec_cat v1.65.0)",
-        "resources": {
-            "win32": {
-                "url": "https://em-ide.com/resource/srecord-1.65.0-win64.zip",
-                "zip_type": "zip",
-                "bin_dir": "srecord-1.65.0-win64/bin"
-            }
-        }
-    },
-    {
-        "id": "stlink_gdb_server",
-        "name": "STLink GDB Server",
-        "resources": {
-            "win32": {
-                "url": "https://em-ide.com/resource/st-tools/STLink-gdb-server.7z",
-                "zip_type": "7z",
-                "bin_dir": "bin"
-            }
-        }
-    },
-    {
-        "id": "jlink_dev_addon",
-        "name": "JLink Device Addon Tool (Add chip support from cmsis package)",
-        "resources": {
-            "win32": {
-                "url": "https://em-ide.com/resource/jlink-device-addon-v0.1.10.zip",
-                "zip_type": "zip",
-                "bin_dir": "jlink-device-addon-0.1.10",
-                "post_install_cmd": "cd jlink-device-addon-0.1.10 && bash ./setup.sh"
-            },
-            "linux": {
-                "url": "https://em-ide.com/resource/jlink-device-addon-v0.1.10.zip",
-                "zip_type": "zip",
-                "bin_dir": "jlink-device-addon-0.1.10",
-                "post_install_cmd": "cd jlink-device-addon-0.1.10 && bash ./setup.sh"
-            },
-            "darwin": {
-                "url": "https://em-ide.com/resource/jlink-device-addon-v0.1.10.zip",
-                "zip_type": "zip",
-                "bin_dir": "jlink-device-addon-0.1.10",
-                "post_install_cmd": "cd jlink-device-addon-0.1.10 && bash ./setup.sh"
-            }
-        }
-    },
-    {
         "id": "gcc_arm_v10",
         "name": "GNU Arm Embedded Toolchain 10.3-2021.10 (arm-none-eabi-gcc)",
         "resources": {
