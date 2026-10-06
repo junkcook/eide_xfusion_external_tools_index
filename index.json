@@ -10,6 +10,16 @@
         }
     },
     {
+        "id": "openocd_v10",
+        "name": "Open On-Chip Debugger version 0.12.0. (OpenOCD)",
+        "resources": {
+            "win32": {
+                "url": "https://sysprogs.com/files/auxiliary/openocd/com.sysprogs.arm.openocd/openocd-20260302.7zz",
+                "zip_type": "7z"
+            }
+        }
+    },
+    {
         "id": "armcc_v5_cracked",
         "name": "Arm C Compiler V5.06u7 (ARMCC) (Cracked)",
         "resources": {
